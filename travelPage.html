@@ -22,6 +22,7 @@ http://www.templatemo.com/tm-511-journey
     <link rel="stylesheet" href="css/templatemo-style.css">   
    <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200&display=swap" rel="stylesheet">
+<link href="css/contact-form.css" rel="stylesheet">
     
                                        <!-- Templatemo style -->
 
@@ -192,7 +193,44 @@ http://www.templatemo.com/tm-511-journey
 
 
     </div>
+<hr style="margin-top:60px; color:gray; background-color: gray;height:0.5px" >
+<!--Book An Appointment Form-->
+  <div class="fcf-body">
+      <div id="fcf-form">
+      <h3 class="fcf-h3">Book An Appointment</h3>
 
+      <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+          
+          <div class="fcf-form-group">
+              <label for="Name" class="fcf-label">Name</label>
+              <div class="fcf-input-group">
+                  <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+              </div>
+          </div>
+
+          <div class="fcf-form-group">
+              <label for="Email" class="fcf-label">Email Address</label>
+              <div class="fcf-input-group">
+                  <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+              </div>
+          </div>
+
+          <div class="fcf-form-group">
+              <label for="Message" class="fcf-label">Message</label>
+              <div class="fcf-input-group">
+                  <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+              </div>
+          </div>
+
+          <div class="fcf-form-group">
+              <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+          </div>
+
+        
+
+      </form>
+      </div>
+  </div>
 
 </div> <!-- .main-content -->
 <!--Popular destination and tour packages-->

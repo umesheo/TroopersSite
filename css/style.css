@@ -1924,6 +1924,7 @@ html[xmlns] .clearfix {
 
 /*Text field container*/
 .input-group{
+  /*max-width:75%;*/
   width:100%;
   max-width: 800px;
   border-radius:10px;
@@ -1931,6 +1932,7 @@ html[xmlns] .clearfix {
   margin:auto;
   padding:2px;
   height:45px;
+  margin-top:40px;
 }
 
 /*Text field*/
@@ -1978,6 +1980,15 @@ input[type="text"]{
 
 
 input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 1px 0px 1px 6px;
+  margin: 1px 2px 0px 2px;
+  border: 1.5px solid rgba(81, 203, 238, 1) !important;
+  background-color: white !important;
+}
+
+
+input[type=email]:focus, textarea:focus {
   box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   padding: 1px 0px 1px 6px;
   margin: 1px 2px 0px 2px;
