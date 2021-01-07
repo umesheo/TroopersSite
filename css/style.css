@@ -2300,9 +2300,8 @@ input[type="text"]{
 
 /*Travel page button*/
 .input-group-text{
-
+  background-color:#f44336 !important;
   width:100px;
-  background-color:#f44336 ;
   border:0 !important;
   color:#fff !important;
   padding:0 25px !important;
@@ -2312,9 +2311,10 @@ input[type="text"]{
   cursor:pointer;
 }
 
+
 /*Travel page button hover*/
 .t-btn:hover {
-  background-color: #008CBA;
+  background-color: #008CBA !important;
   color: white;
   transition:0.5s;
 }
