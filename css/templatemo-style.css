@@ -135,6 +135,11 @@ p:last-child { margin-bottom: 0; }
     min-height: 720px;
     position: relative;
 }
+.tm-banner-bgP {
+    background: url(../img/pokaharaBack.jpg) center top no-repeat;    
+    min-height: 720px;
+    position: relative;
+}
 .tm-banner-row { 
     position: relative;
     z-index: 100;
@@ -363,7 +368,8 @@ label { font-weight: 700; }
 
 .tab-pane {
     max-width: 970px;
-    margin: 60px auto;
+    margin: 50px auto;
+    ma
 }
 
 .tm-recommended-place {
@@ -414,11 +420,11 @@ label { font-weight: 700; }
     -ms-flex-pack: center;
     justify-content: center;
     padding-left: 20px;
-    width: 200px;
+    width: 280px;
     transition: all 0.3s ease;
 }
 
-.tm-recommended-price-box:hover { background-color: #c66995; }
+.tm-recommended-price-box:hover { background-color: #df7861; }
 
 .tm-recommended-price {
     color: white;
