@@ -676,9 +676,9 @@ body{
 
 .hero-section{
   align-items: flex-start;
-  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2014/01/28/239525/21d5b1b171dc403a9318e332487ecdfb-1000.jpg");
+  /*background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2014/01/28/239525/21d5b1b171dc403a9318e332487ecdfb-1000.jpg");*/
   background-size:cover;
- 
+  background-color:#ededed;
   display: flex;
   min-height: 100%;
   justify-content: center;
@@ -692,6 +692,10 @@ body{
   grid-row-gap: var(--spacing-l);
   max-width: var(--width-container);
   width: 80%;
+}
+
+.recent-projects-container{
+  background-color: white;
 }
 
 @media(min-width: 540px){
@@ -2333,4 +2337,225 @@ input[type=email]:focus, textarea:focus {
   background-color: white !important;
 }
 
+
+/************************************
+********Our Services Style***********
+*************************************/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&amp;display=swap');
+  
+  /*designed by ThapaTechncial Youtuber */
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.service_heading {
+  text-transform: uppercase;
+  position: relative;
+}
+
+.service_heading:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 49%;
+  transform: translateX(-40%);
+  width: 0%;
+  height: auto;
+  border-bottom: 3px solid #3e4555;
+  transition: all 0.3s linear;
+  width: 10%;
+  margin-top:5px !important;
+}
+
+.service_heading:hover:after {
+  
+}
+
+.service {
+  color: #8d97ad;
+  font-weight: 300;
+}
+
+.service h1, .service h2, .service h3, .service h4, .service h5, .service h6 {
+  color: #3e4555;
+}
+
+.service h6 {
+  line-height: 22px;
+  font-size: 18px;
+  color: #8d97ad;
+}
+
+.service .font-weight-medium {
+  font-weight: 500;
+  color: #3e4555;
+}
+
+.service .badge {
+  line-height: 15px;
+}
+
+.service .badge-info {
+  background: #188ef4;
+}
+
+.service .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+}
+.service .img-shadow {
+  box-shadow: 0 0 60px rgba(115, 128, 157, 0.3);
+}
+
+.service .wrap-service .img-hover {
+  transition: all 0.2s ease-in;
+}
+
+.service .wrap-service .img-hover:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.service .wrap-service .uneven-box {
+  margin-top: 100px;
+}
+
+.service .btn-sm {
+  padding: 6px 14px;
+  font-size: 16px;
+  background: #188ef4;
+}
+
+.service .btn-sm:hover {
+  color: #188ef4;
+  background: #fff;
+  border: 1px solid #188ef4;
+}
+
+@media(max-width:768px) {
+  .service .wrap-service .uneven-box {
+    margin-top: 10px;
+  }
+
+}
+
+
+
+/*******************************/
+/******* Service Row CSS *******/
+/*******************************/
+.service-row {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.service-row .service-row-img {
+    position: relative;
+    width: 100%;
+    padding: 0 30px;
+    overflow: hidden;
+}
+
+.service-row .service-row-img img {
+    max-width: 100%;
+}
+
+@media(max-width: 767.98px) {
+    .service-row .service-row-img {
+        margin-bottom: 30px;
+    }
+}
+
+.service-row .service-row-text {
+    position: relative;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.service-row h2.section-title {
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.service-row h2.section-title::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+    border-radius: 0 100% 100% 0; 
+}
+
+.service-row p {
+    font-size: 16px;
+}
+
+.service-row a.btn {
+    margin-top: 15px;
+    padding: 10px 35px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(#4F84C4, #00539C);
+    transition: .5s;
+}
+
+.service-row a.btn:hover {
+    background: linear-gradient(#00539C, #4F84C4);
+}
+
+.service-row .service-row-col .col-sm-6 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.service-row .service-row-col-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    padding: 8px 0;
+    text-align: center;
+    color: #ffffff;
+    background: #4F84C4;
+}
+
+.service-row .service-row-col-text {
+    width: calc(100% - 55px);
+}
+
+.service-row .service-row-col-text h3 {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.service-row .service-row-col-text p {
+    margin: 0;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .service-row .service-row-img,
+    .service-row .service-row-text {
+        padding: 0;
+    }
+}
 
