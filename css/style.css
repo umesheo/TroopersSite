@@ -6,6 +6,167 @@ html {
   margin: 0;
   font-family: sans-serif;
 }
+.animation-box {
+  width: 75%;
+  height: 25.5rem;
+  background-color: transparent;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.animation-container {
+  width: 1000rem;
+  height: 30rem;
+}
+
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes bottomFadeOut {
+  0% {
+    position: absolute;
+    bottom: -5rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    bottom: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+  
+}
+
+@keyframes topFadeOutVertical {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 45%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rightFadeInOut {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: 10rem;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+.first-text {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 5rem;
+  opacity: 50;
+  animation-name: topFadeOut;
+  animation-duration: 5s;
+  color: black;
+}
+
+.second-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 8.5rem;
+  opacity: 0;
+  animation-name: rightFadeInOut;
+  animation-delay: 3s;
+  animation-duration: 6s;
+  color: #ccc;
+}
+
+.third-text {
+  transform: rotate(-90deg);
+  font-size: 2rem;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 7.5s;
+  animation-duration: 6s;
+  color: #A3DDF0;
+  white-space: nowrap;
+}
+
+.fourth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 10.5rem;
+  left: 10%;
+  opacity: 0;
+  color: #F0A3BE;
+  animation-name: fadeInOut;
+  animation-delay: 8.5s;
+  animation-duration: 9s;
+}
+
+.fifth-text {
+  font-size: 5rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #F0EBA3;
+  animation-name: bottomFadeOut;
+  animation-delay: 10s;
+  animation-duration: 9s;
+}
 
 .property-card
 {
@@ -2300,9 +2461,8 @@ input[type="text"]{
 
 /*Travel page button*/
 .input-group-text{
-
+  background-color:#f44336 !important;
   width:100px;
-  background-color:#f44336 ;
   border:0 !important;
   color:#fff !important;
   padding:0 25px !important;
@@ -2312,9 +2472,10 @@ input[type="text"]{
   cursor:pointer;
 }
 
+
 /*Travel page button hover*/
 .t-btn:hover {
-  background-color: #008CBA;
+  background-color: #008CBA !important;
   color: white;
   transition:0.5s;
 }
