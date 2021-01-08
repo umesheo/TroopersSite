@@ -6,6 +6,35 @@ html {
   margin: 0;
   font-family: sans-serif;
 }
+.sticky-sidebar-lesson {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sticky-sidebar-lesson::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.sticky-sidebar-lesson .sandbox {
+  width: 60%;
+  margin: 0 0 40px;
+  float: left;
+}
+
+.sticky-sidebar {
+  background: #e7eef1;
+  padding: 40px 40px 60px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 0 12px 0 -6px #fa90a3;
+
+  position: fixed;
+  right: 5%;
+  width: 20%;
+  float: right;
+}
 .animation-box {
   width: 100%;
   height: 11rem;
@@ -398,6 +427,18 @@ html {
   padding-bottom:10px; 
   color: #fff;
   background-color: red;
+  border:none;
+  border-radius: 30px;
+}
+#submit-btn1{
+  margin-top: 10px;
+  align-content: center;
+  margin-left: 150px;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom:10px; 
+  color: #fff;
+  background-color: #00917c;
   border:none;
   border-radius: 30px;
 }
@@ -2731,7 +2772,7 @@ input[type=email]:focus, textarea:focus {
 
 @media(min-width: 768px) {
     .story {
-        padding: 45px 60px 15px 60px;
+        padding: 0px 60px 15px 60px;
     }
 }
 
@@ -2986,6 +3027,78 @@ input[type=email]:focus, textarea:focus {
         left: 30px;
         margin-left: 0;
     }
+}
+
+/*******************************/
+/******* Itinerary Description CSS *******/
+/*******************************/
+.single {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 65px 0;
+}
+
+.single h2.section-title {
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    padding-bottom: 15px;
+}
+
+.single h2.section-title::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+    border-radius: 0 100% 100% 0; 
+}
+
+.single h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.l-h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px !important;
+}
+
+.single p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+/*Space between each icon&label*/
+.span-labels{
+  margin-right:10px;
+}
+
+/*Space between icon and label*/
+.icons-style{
+  margin-right: 4px;
+  color:#3EB368;
+}
+
+.icons-style-icon{
+  color: #00BFFF;
+}
+
+.single .table,
+.single .list-group {
+    margin-bottom: 30px;
+}
+
+.list-group-item{
+  
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2);
 }
 
 
