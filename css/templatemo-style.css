@@ -135,6 +135,11 @@ p:last-child { margin-bottom: 0; }
     min-height: 720px;
     position: relative;
 }
+.tm-banner-bgT {
+    background: url(../img/travelBack.png) center top no-repeat;    
+    min-height: 720px;
+    position: relative;
+}
 .tm-banner-bgP {
     background: url(../img/pokaharaBack.jpg) center top no-repeat;    
     min-height: 720px;

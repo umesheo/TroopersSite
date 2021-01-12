@@ -438,7 +438,32 @@ html {
   border:none;
   border-radius: 30px;
 }
+#submit-btnM{
+  margin-top: 40px;
+  align-content: center;
+  margin-left: 350px;
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom:10px; 
+  color: #fff;
+  background-color: red;
+  border:none;
+  border-radius: 30px;
+}
+
 #submit-btn1{
+  margin-top: 10px;
+  align-content: center;
+  margin-left: 150px;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom:10px; 
+  color: #fff;
+  background-color: #00917c;
+  border:none;
+  border-radius: 30px;
+}
+#buttonC{
   margin-top: 10px;
   align-content: center;
   margin-left: 150px;
