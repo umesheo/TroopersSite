@@ -22,6 +22,32 @@ http://www.templatemo.com/tm-511-journey
     <link rel="stylesheet" href="css/templatemo-style.css">   
    <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+<!--Css For Text Fields Container-->
+<!-- Animate.css -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- Icomoon Icon Fonts-->
+  <link rel="stylesheet" href="css/icomoon.css">
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+  <!-- Flexslider  -->
+  <link rel="stylesheet" href="css/flexslider.css">
+
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  
+  <!-- Date Picker -->
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <!-- Flaticons  -->
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <!-- Modernizr JS -->
+  <script src="js/modernizr-2.6.2.min.js"></script>
     
                                        <!-- Templatemo style -->
 
@@ -80,7 +106,7 @@ http://www.templatemo.com/tm-511-journey
                 <div class="container">
                     <div class="row">
                         <nav class="navbar navbar-expand-lg narbar-light">
-                            <a class="navbar-brand mr-auto" href="#">
+                            <a class="navbar-brand mr-auto" href="index.html">
                                 <img src="img/logo.png" alt="Site logo">
                                 Troopers Group
                             </a>
@@ -106,41 +132,112 @@ http://www.templatemo.com/tm-511-journey
             </div> <!-- container -->
         </div> <!-- .tm-top-bar -->
         <!--Travel image and header text and textfield-->
-        
+        <div id="page">
+     <!--Image slider start-->
+           <section class="home" style="height:60vh">
+             <div class="slider">
+                <div class="slide active" style="background-image: url('img/travelBack.jpg')">
+                    <div class="container">
+                        <div class="caption">
+                          <h2 class="h2-text">Lets Travel With Troopers</h2>
+                             <!-- Slider Image description
+                                <p>Lorem ipsum dummy text goes here.</p>-->
+                            <div class="slider-button" >
+                           <a href="#popular-destinations"> <!--<i class="fa fa-search" style="margin-right:5px"></i>-->Scroll Down</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+               
+             </div>
+        </section>
+
+       <!--Image slider end-->
+    <div id="colorlib-reservation">
+      <!-- <div class="container"> -->
+        <div class="row">
+          <div class="search-wrap">
+            <div class="container">
+              <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#flight"><i class="flaticon-plane"></i> Customized Tours</a></li>
+             
+              </ul>
+            </div>
+            <div class="tab-content">
+              <div id="flight" class="tab-pane fade in active">
+               
+                <form action="mailto:Subhaschettri0772@gmail.com" method="post" class="colorlib-form" enctype="text/plain">
+                        <div class="row">
+                         <div class="col-md-3">
+                          <div class="form-group">
+                            <label for="date">Destination</label>
+                            <div class="form-field">
+                              <input type="text" id="location" type="text" name="Destination " class="form-control" placeholder="Destination">
+                            </div>
+                          </div>
+                         </div>
+                           <div class="col-md-2">
+                          <div class="form-group">
+                            <label for="guests">People</label>
+                            <div class="form-field">
+                              <input type="text" id="location" type="text" name="Number of People " class="form-control" placeholder="No. People">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="form-group">
+                            <label for="date">Dates:</label>
+                            <div class="form-field">
+                              <input type="month" id="dates" type="date" name="Dates " class="form-control" placeholder="Check-in date">
+                            </div>
+                          </div>
+                        </div>
+                         <div class="col-md-2">
+                          <div class="form-group">
+                            <label for="date">Cost</label>
+                            <div class="form-field">
+                              <input type="text" id="cost" type="Cost" name="Cost " class="form-control" placeholder="Cost">
+                            </div>
+                          </div>
+                         </div>
+                        <!--
+                        <div class="col-md-2">
+                          <div class="form-group">
+                            <label for="date">Check-out:</label>
+                            <div class="form-field">
+                              <i class="icon icon-calendar2"></i>
+                              <input type="text" id="date" class="form-control date" placeholder="Check-out date">
+                            </div>
+                          </div>
+                        </div>
+                      -->
+                        <div class="col-md-2">
+                         <input type="submit" id="submit" value="Send" class="btn btn-primary btn-block">
+                        </div>
+                      </div>
+                    </form>
+                    
+                 </div>
+                 
+    </div>
+</div>
+               </div>
+           
+        </div>
+      </div>
         <div class="tm-page-wrap mx-auto">
+          <!-- Previous code under tm-page-wrap mx-auto
             <section class="tm-banner">
                 <div class="tm-container-outer tm-banner-bgT">
                     <div class="container">
                         <div class="row tm-banner-row tm-banner-row-header">
                             <div class="col-xs-12">
+
                               <!--Header text-->
-                                <div class="plan">
-                            <h2>Make a plan</h2>
-                            <div class="plann">
-                            <form action="mailto:Subhaschettri0772@gmail.com" method="post" enctype="text/plain" id="input" >
-                                 <input class="input-field" type="text" name="Destination" placeholder="Destination">
-                                 <input class="input-field" type="text" name="People" placeholder="People">
-                                 <input class="input-field" type="datepicker" name="Date" placeholder="Date">
-                                 <input class="input-field" type="text" name="COST" placeholder="Cost">
                              
-                                <input id="submit-btnM" type="submit" value="Send">
-                            </form>
-
-
-                            </div>
-                        </div>   
-                            </div>                
-                        </div> 
-                        
-                    </div>
-                    <!--Text field-->
-                    
-                </div>                    
-            </section> 
-
-            <div class="site-section bg-light">
+            <div class="site-section bg-light" id="popular-destinations">
            <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" >
           <div class="col-lg-7 text-center mb-5">
             <div class="heading">
             <h1>Popular destinations</h1>
@@ -583,19 +680,41 @@ http://www.templatemo.com/tm-511-journey
                 . Designed by <a rel="nofollow" href="http://www.google.com/+templatemo" target="_parent">Umesh</a></p>
             </footer>
 
-    
+    <!-- jQuery -->
+  <script src="js/jquery.min.js"></script>
+  <!-- jQuery Easing -->
+  <script src="js/jquery.easing.1.3.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Waypoints -->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <!-- Flexslider -->
+  <script src="js/jquery.flexslider-min.js"></script>
+  <!-- Owl carousel -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/magnific-popup-options.js"></script>
+  <!-- Date Picker -->
+  <script src="js/bootstrap-datepicker.js"></script>
+  <!-- Stellar Parallax -->
+  <script src="js/jquery.stellar.min.js"></script>
+  <!-- Main -->
+  <script src="js/travelPage.js"></script>
+
 <script src="https://code.jquery.com/jquery-1.12.0.js"></script>
     <!-- load JS files -->
     <script src="js/app.js"></script>
     <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
     <script src="js/popper.min.js"></script>                    <!-- https://popper.js.org/ -->       
     <script src="js/bootstrap.min.js"></script>                 <!-- https://getbootstrap.com/ -->
-    <script src="js/datepicker.min.js"></script>                <!-- https://github.com/qodesmith/datepicker -->
+                 <!-- https://github.com/qodesmith/datepicker -->
     <script src="js/jquery.singlePageNav.min.js"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
     <script src="slick/slick.min.js"></script>                  <!-- http://kenwheeler.github.io/slick/ -->
-    <script src="js/jquery.scrollTo.min.js"></script>           <!-- https://github.com/flesler/jquery.scrollTo -->
+    <script src="js/jquery.scrollTo.min.js"></script>
+            <!-- https://github.com/flesler/jquery.scrollTo -->
     <script> 
-      
+   
         /* Google Maps
         ------------------------------------------------*/
         $(function() {
@@ -640,7 +759,11 @@ function animateMe(elem) {
               map.setCenter(center);
           });
         }
-
+$(document).ready(function(){
+  $(".nav-tabs a").click(function(){
+    $(this).tab('show');
+  });
+});
         function calculateCenter() {
             center = map.getCenter();
         }
