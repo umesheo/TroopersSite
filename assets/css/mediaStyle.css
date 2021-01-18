@@ -20,7 +20,8 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+   }
 
 @font-face {
   font-family: "Angeline_Vintage";
@@ -528,7 +529,10 @@ header {
      }
 #load-more {
   display: none;
+  
 }
+
+
 .vr-gallery .play-1 {
   position: absolute;
   left: 50%;
@@ -707,7 +711,7 @@ footer h2.logo:hover{
   text-decoration: none !important; }
 
 .ar-content {
-  margin-top: -100px;
+  
   position: relative;
   z-index: 5; 
 }
@@ -849,6 +853,7 @@ footer h2.logo:hover{
 .sidebar .third-clr {
   color: #777777;
   font-size: 14px; }
+
 .sidebar .owl-dots {
   text-align: center;
   display: block !important; }
@@ -883,6 +888,8 @@ footer h2.logo:hover{
 
 .nav-items{
   transition:0.5s;
+  background: #1565c0 !important;
+  margin:2px;
 }
 
 .nav-items:hover{
@@ -921,6 +928,39 @@ footer h2.logo:hover{
   .ar-content .col-lg-9 {
     padding-right: 15px !important; }
   .ar-content .col-lg-3 {
-    padding-left: 15px !important; } }
+    padding-left: 15px !important; }
+  }
+@media screen and (max-width: 900px) {
+.category-mob-margin {margin-top:50px;}
+}
+
+.media-title{
+  color:white !important;
+}
+
+.right-row{
+   margin-top:-200px;
+}
+
+@media screen and (max-width:900px) {
+.sidebar { 
+  margin-top:250px !important;
+}
+}
+
+@media screen and (max-width:900px) {
+.media-title {color:black !important; margin-top:50px;}
+}
+
+@media screen and (max-width:900px) {
+.ser-team-row {padding-right:20px;}
+}
+
+@media screen and (max-width:900px) {
+.stylish-image{height:500px !important;}
+}
+
+
+
 
 /*# sourceMappingURL=style.css.map */
