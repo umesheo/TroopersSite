@@ -831,7 +831,7 @@ button.main-button:hover {
     margin-top:60px !important;
 }
 
-/*First card Background color*/
+/*Card Background color*/
 #about .about-container .content {
  background: #fff;
  box-shadow: 0 8px 50px 0 rgba(0,0,0,0.2);
@@ -923,6 +923,7 @@ button.main-button:hover {
   font-weight: 600;
   font-size: 24px;
 }
+
 
 /*Image description background color*/
 /*
