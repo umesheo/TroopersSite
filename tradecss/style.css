@@ -203,7 +203,7 @@ ul, li, ol {
 
 }
 
-.logo{ width: 100%; float: left; }
+.logo{ width: 40%; float: left; }
 .web_text{ width: 100%; float: left; font-size: 48px; padding-top: 160px;}
 .margin-top-20{ margin-top: 20px; }
 
@@ -402,7 +402,7 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
     top: 0;
     width: 100%;
     height: 110px;
-    background-image: url(../images/about-top-bg.png);
+    background-image: url(../tradecss/images/about-top-bg.png);
     z-index: 1;
     background-size: 100%;
     background-position: top center;
@@ -416,7 +416,7 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
     bottom: 0;
     width: 100%;
     height: 110px;
-    background-image: url(../images/about-bottom-bg.png);
+    background-image: url(../tradecss/images/about-bottom-bg.png);
     z-index: 1;
     background-size: 100%;
     background-position: bottom center;
@@ -518,7 +518,7 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 .contact_section_2{
 	width: 100%;
 	float: left;
-	background-image: url(../images/contact-bg.png);
+	background-image: url(../tradecss/images/contact-bg.png);
 	height: auto;
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -575,6 +575,8 @@ button.main_bt {
     height: 50px;
     border-radius: 5px;
     font-size: 22px;
+    margin-left: 150px;
+    border-radius: 50px;
 }
 
 button.main_bt a:hover {
@@ -677,6 +679,133 @@ button.main_bt a:hover {
   margin-left: 0px; margin-right: 0px; }
 .copy_text a:hover{ color: #000; }
 .footer_menu{ padding-right: 10px; }
+}
+/* Blog 
+*/
+.blog-post-thumb {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blog-post-thumb.big .img {
+  height: 400px;
+}
+
+.blog-post-thumb .img {
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.blog-post-thumb .blog-content {
+  margin-top: -30px;
+  padding-top: 50px;
+}
+
+.blog-post-thumb h3 {
+  margin-bottom: 20px !important;
+}
+
+.blog-post-thumb h3 a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  line-height: 26px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.blog-post-thumb h3 a:hover {
+  color: #ff589e;
+}
+
+.blog-post-thumb .text {
+  font-weight: 400;
+  font-size: 13px;
+  color: #777;
+  letter-spacing: 0.26px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+.blog-post-thumb .post-footer span {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #777;
+  padding-left: 30px;
+}
+
+.blog-post-thumb a.main-button  {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.blog-list .blog-post-thumb {
+  text-align: left;
+}
+a.main-button-slider {
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 12px 20px;
+  background-color: #ff589e;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+a.main-button-slider:hover {
+  background-color: #70af85;
+}
+
+a.main-button {
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 12px 20px;
+  background-color: #8261ee;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+a.main-button:hover {
+  background-color: #00af91;
+}
+
+button.main-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 12px 20px;
+  background-color: #8261ee;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+button.main-button:hover {
+  background-color: #ff589e;
 }
 
 /* About Us Section
