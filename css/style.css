@@ -263,6 +263,48 @@ html {
   background-size:cover;
   background-repeat:no-repeat;
 }
+.property-imageE
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url("../img/everestTrek.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.property-imageA
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url("../img/annapurnaTrek.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.property-imageL
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url("../img/langtangTrek.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
 .property-image2
 {
   height:6em;
@@ -406,6 +448,18 @@ html {
   height:18em;
 }
 .property-card:hover .property-image6
+{
+  height:18em;
+}
+.property-card:hover .property-imageE
+{
+  height:18em;
+}
+.property-card:hover .property-imageA
+{
+  height:18em;
+}
+.property-card:hover .property-imageL
 {
   height:18em;
 }
