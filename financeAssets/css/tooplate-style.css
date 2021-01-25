@@ -311,6 +311,7 @@ textarea {
     /* Masonry container */
     -webkit-column-count: 1;
     column-count: 1;
+    margin-top:0px;
   }
 
   .tm-container {
