@@ -842,7 +842,7 @@ distibution area css
   height: 100%;
   width: 100%;
   top: 0;
-  background: url(assets/img/initial-bg.png) no-repeat;
+  background: url(img/initial-bg.png) no-repeat;
   right: 0;
   left: 0;
   margin: 0 auto;
@@ -856,7 +856,7 @@ distibution area css
   position: absolute;
   bottom: -33%;
   right: -32%;
-  background: url(assets/img/documentaion-bg.png) no-repeat;
+  background: url(img/documentaion-bg.png) no-repeat;
   z-index: -1;
 }
 
