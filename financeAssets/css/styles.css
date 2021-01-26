@@ -489,6 +489,7 @@ a:focus {
 .testimonials-inner .profile-image {
   display: inline-block;
   margin: 0 auto;
+
 }
 
 .testimonials-inner .quote {
@@ -1014,6 +1015,7 @@ a:focus {
   .testimonials-section .item .profile-image {
     width: 60px;
     height: 60px;
+    
   }
   .testimonials-section .item .quote {
     margin-left: 85px;
@@ -2665,6 +2667,7 @@ line-height: 30px;
 
 .Address a{
   color:#fff !important;
+
 }
 
 .Address a:hover{
@@ -2880,7 +2883,7 @@ form a:hover {
      margin-bottom: 12px;
      border-radius: inherit !important;
      padding: 22px 0 !important;
-     color: #c1bebe;
+    color: #000;
      width: 95%;
     margin: 0 auto;
     border-left: 0px;
