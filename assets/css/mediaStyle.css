@@ -1,11 +1,3 @@
-/*
- * Shahala: Free Template by FreeHTML5.co
- * Author: https://freehtml5.co
- * Facebook: https://facebook.com/fh5co
- * Twitter: https://twitter.com/fh5co
- */
-
- 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -77,6 +69,10 @@ h1, h2, h3, h4, h5, h6 {
   .card img {
     border-radius: 0; }
 
+.card-title{
+  margin-top:15px;
+}
+
 header .card a, .vr-gallery a.btn {
   background-color: #03133a;
   width: 200px;
@@ -120,6 +116,17 @@ header {
 
    .media-link:hover{
     color: red!important;
+  }
+
+  @media only screen and (max-width:479px) {
+    .card-title{
+   margin-top:25px;
+    }
+
+    body{
+      margin:0;
+      padding:0;
+    }
   }
   header .nav-fill {
     max-width: 250px; }
@@ -392,8 +399,13 @@ header {
   .video-player .play-list {
     max-width: 450px !important;
     margin: 20px auto;
-
      }
+
+  @media only screen and (max-width:479px) {
+    .video-player .play-list{
+       max-width:300px !important;
+    }
+  }
   .video-player .owl-stage-outer img {
     cursor: pointer; }
   .video-player .owl-nav {
