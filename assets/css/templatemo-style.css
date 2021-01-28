@@ -440,6 +440,7 @@ button:hover {
 
 .service-item .first-service-icon {
     background-image: url(../images/car.png);
+    background-size: contain;
 }
 
 .service-item:hover .first-service-icon {
