@@ -1,0 +1,155 @@
+.hero-wrap {
+  width: 100%;
+  height: 100%;
+  position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; }
+  .hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .5;
+    background: rgba(32, 124, 229, 0);
+    background: -moz-linear-gradient(45deg, rgba(32, 124, 229, 0) 0%, rgba(146, 95, 206, 0) 55%, #f048bb 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(32, 124, 229, 0)), color-stop(55%, rgba(146, 95, 206, 0)), color-stop(100%, #f048bb));
+    background: -webkit-linear-gradient(45deg, rgba(32, 124, 229, 0) 0%, rgba(146, 95, 206, 0) 55%, #f048bb 100%);
+    background: -o-linear-gradient(45deg, rgba(32, 124, 229, 0) 0%, rgba(146, 95, 206, 0) 55%, #f048bb 100%);
+    background: -ms-linear-gradient(45deg, rgba(32, 124, 229, 0) 0%, rgba(146, 95, 206, 0) 55%, #f048bb 100%);
+    background: linear-gradient(45deg, rgba(32, 124, 229, 0) 0%, rgba(146, 95, 206, 0) 55%, #f048bb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207ce5', endColorstr='#f048bb', GradientType=1 ); }
+  .hero-wrap.hero-wrap-2 {
+    height: 600px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+    .hero-wrap.hero-wrap-2 .overlay {
+      width: 100%;
+      opacity: .3;
+      background: #ce4be8;
+      background: -moz-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
+      background: -webkit-gradient(left top, right bottom, color-stop(0%, #ce4be8), color-stop(100%, #207ce5));
+      background: -webkit-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
+      background: -o-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
+      background: -ms-linear-gradient(-45deg, #ce4be8 0%, #207ce5 100%);
+      background: -webkit-linear-gradient(315deg, #ce4be8 0%, #207ce5 100%);
+      background: -o-linear-gradient(315deg, #ce4be8 0%, #207ce5 100%);
+      background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce4be8', endColorstr='#207ce5', GradientType=1 ); }
+    .hero-wrap.hero-wrap-2 .slider-text {
+      height: 600px; }
+      .d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important; }
+.ftco-section {
+  padding: 7em 0;
+  position: relative;
+  height: 600px;
+  width: 100%; }
+  @media (max-width: 767.98px) {
+    .ftco-section {
+      padding: 6em 0; } }
+  @media (max-width: 767.98px) {
+    .ftco-section {
+      padding: 6em 0; } }
+
+.ftco-no-pt {
+  padding-top: 0 !important; }
+
+.ftco-no-pb {
+  padding-bottom: 0 !important; }
+
+.ftco-bg-dark {
+  background: #3c312e; }
+
+.ftco-intro {
+  color: rgba(255, 255, 255, 0.8);
+  z-index: 0;
+  overflow: hidden; }
+  .ftco-intro .img {
+    padding: 3em;
+    position: relative;
+    z-index: 0;
+    overflow: hidden; }
+    @media (max-width: 767.98px) {
+      .ftco-intro .img {
+        padding: 2em 1em; } }
+    .ftco-intro .img .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      content: '';
+      opacity: .6;
+      background: #e449ad;
+      z-index: -1; }
+  @media (max-width: 991.98px) {
+    .ftco-intro {
+      background-position: center center !important; } }
+  .ftco-intro h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase; }
+    @media (max-width: 767.98px) {
+      .ftco-intro h2 {
+        font-size: 20px; } }
+    .ftco-intro h2 span {
+      background: #4986fc; }
+      .ftco-about {
+  position: relative;
+  z-index: 0; }
+  .ftco-about .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .1;
+    background: #000000;
+    z-index: -1; }
+  .ftco-about .about-wrap {
+    position: relative;
+    width: 100%; }
+    @media (max-width: 767.98px) {
+      .ftco-about .about-wrap {
+        height: 400px; } }
+  .ftco-about .img {
+    -webkit-box-shadow: 0px 2px 25px -13px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 2px 25px -13px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 2px 25px -13px rgba(0, 0, 0, 0.26);
+    border: 15px solid #fff;
+    width:400px;
+    height:450px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    @media (max-width: 767.98px) {
+      .ftco-about .img {
+        height: 400px; } }
+  .ftco-about .img-2 {
+    -webkit-box-shadow: 0px 2px 25px -13px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 2px 25px -13px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 2px 25px -13px rgba(0, 0, 0, 0.26);
+    border: 15px solid #fff;
+    width: 60%;
+    height: 65%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+  .ftco-about .about-intro {
+    width: 100%;
+    position: relative;
+    z-index: 99; }
