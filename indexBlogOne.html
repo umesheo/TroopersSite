@@ -93,15 +93,15 @@
                                 <div class="col-md-12 blog-post">
                                     <img src="blogAssets/images/pic/my-pic.png" class="main-blog-image" alt="">
                                     <div class="post-title">
-                                      <a href="single.html"><h1>We at troopers</h1></a>
+                                      <a href="single.html"><h1>Top 7 reasons to visit Nepal</h1></a>
                                     </div>  
                                     <div class="post-info">
-                                    	<span>November 23, 2020 / by <a href="#" target="_blank">Author</a></span>
+                                    	<span>January 29, 2021 / by <a href="#" target="_blank">Author</a></span>
                                     </div>  
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut ratione similique temporibus tempora dicta soluta? Qui hic, voluptatem nemo quo corporis dignissimos voluptatum debitis cumque fugiat mollitia quasi quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut ratione similique.</p>  
-                                    <!--Read More buton                        			
-                                    <a href="single.html" class="button button-style button-anim fa fa-long-arrow-right"><span>Read More</span></a>
-                                  -->
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut ratione similique temporibus tempora dicta soluta? Qui hic, voluptatem nemo quo corporis dignissimos voluptatum debitis cumque fugiat mollitia quasi quod. Lorem ipsum dolor sit amet,<span id="dots">...</span><span id="moreContent">consectetur adipisicing elit. Molestiae ut ratione similique.consectetur adipisicing elit. Molestiae ut ratione similique.consectetur adipisicing elit. Molestiae ut ratione similique.consectetur adipisicing elit. Molestiae ut ratione similique.consectetur adipisicing elit. Molestiae ut ratione similique.consectetur adipisicing elit. Molestiae ut ratione similique. </span>
+                                    </p>                     			
+                                    <button class="button button-style button-anim fa fa-long-arrow-right" id="readMoreBtn" onclick="myFunction()"><span>Read More</span></button>
+                                
                                 </div>
                                 <!-- Blog Post End -->
                                   <!-- Blog Post Start -->
@@ -202,5 +202,22 @@
     <script type="text/javascript" src="blogAssets/js/plugin.js"></script>
     <!-- Main Javascript File  -->
     <script type="text/javascript" src="blogAssets/js/scripts.js"></script>
+    <script>
+   function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("moreContent");
+      var btnText = document.getElementById("readMoreBtn");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
    </body>
  </html>

@@ -156,6 +156,18 @@ p:last-child { margin-bottom: 0; }
     margin: 0 auto;    
 }
 
+@media(max-width: 540px){
+  .tm-container-outer{
+    padding-bottom:110px;
+  }
+}
+
+@media(max-width: 540px){
+  .site_info{
+    padding-bottom:10px;
+  }
+}
+
 .tm-content-box { box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
 .tm-text-gray { color: #787676; }
 
@@ -727,10 +739,18 @@ footer p { color: white; }
     .tm-slideshow-description { width: 55%; }
 }
 
+
+  @media(max-width: 540px){
+ .tm-top-bar{
+    max-width:380px;
+  }
+}
+
+
 @media screen and (max-width: 991px) {
     .tm-top-bar .navbar-expand-lg .navbar-nav .nav-link {
         padding: 15px 20px;
-        background: red;
+        background: #000;
     }
 
     .tm-top-bar, .tm-top-bar-bg { height: auto; }
