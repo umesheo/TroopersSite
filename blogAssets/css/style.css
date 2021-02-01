@@ -80,9 +80,14 @@ a {
 a:hover,
 a:focus,
 a:active {
+
     text-decoration: none;
     outline: none;
-    color: #333333;
+    color: #0BB5FF;
+}
+
+a:hover{
+    transition-duration:0.5s;
 }
 
 b {
@@ -1857,3 +1862,27 @@ blockquote {
 #moreContent {
     display: none;
 }
+
+
+.blog-content{
+    text-align:justify;
+    font-weight:400;
+}
+
+.blog-description{
+    text-align:justify;
+    font-weight:400;
+    font-style:italic;
+}
+
+.whole-blog-content{
+    width:97% !important;
+}
+
+.unordered-list{
+    font-size:20px;
+}
+
+
+
+

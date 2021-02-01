@@ -742,7 +742,7 @@ footer p { color: white; }
 
   @media(max-width: 540px){
  .tm-top-bar{
-    max-width:380px;
+    max-width:375px;
   }
 }
 
