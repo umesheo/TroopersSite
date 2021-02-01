@@ -449,6 +449,7 @@ button:hover {
 
 .service-item .second-service-icon {
     background-image: url(../images/jeep.png);
+    background-size: contain;
 }
 
 .service-item:hover .second-service-icon {
@@ -457,6 +458,7 @@ button:hover {
 
 .service-item .third-service-icon {
     background-image: url(../images/haice.png);
+    background-size: contain;
 }
 
 .service-item:hover .third-service-icon {
@@ -465,13 +467,16 @@ button:hover {
 
 .service-item .fourth-service-icon {
     background-image: url(../images/coaster1.png);
+    background-size: contain;
 }
 
 .service-item:hover .fourth-service-icon {
     background-image: url(../images/coaster1.png);
+    background-size: contain;
 }
 .service-item .fifth-service-icon {
     background-image: url(../images/coaster.png);
+    background-size: contain;
 }
 
 .service-item:hover .fifth-service-icon {

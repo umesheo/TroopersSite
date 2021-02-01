@@ -632,7 +632,8 @@ html {
   .book-content,
   .book,
   {
-    width: 100%;
+    width: 150px;
+    height: 200px;
   }
   .face-front, .face-back,
   .face-back{
@@ -1272,6 +1273,15 @@ img {
   padding-top: 30px;
   padding-bottom: 45px;
 }
+.rightAlign {
+  float: right;
+  text-align: justify;
+}
+ 
+.leftAlign {
+  float: left;
+  text-align: justify;
+}
  
  
 #Txt {
@@ -1298,13 +1308,12 @@ img {
 @media (max-width:540px) {
   #wrapper,
   .rightAlign,
-  .leftAlign,
-
-
-  #homepageRightImg {
-    width: 100%;
-    /* Below 480px the width will be 100% and the images will come in stakced view. */
+  .leftAlign{
+    width: 80%;
   }
+
+
+ 
 }
  
 html[xmlns] .clearfix {
